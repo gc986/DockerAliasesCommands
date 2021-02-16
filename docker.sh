@@ -1,5 +1,7 @@
 echo -en "\e[0;104mdocker-images\e[0m = docker images - printing list of all images in system"
 echo ""
+echo -en "\e[0;104mdocker-image-remove\e[0m = docker rmi <IMAGE_NAME> - remove <IMAGE_NAME> image from local repository"
+echo ""
 echo -en "\e[0;104mdocker-containers\e[0m = docker ps -a - printing info of all containers"
 echo ""
 echo -en "\e[0;104mdocker-runs\e[0m = docker ps - printing info of containres is running"
