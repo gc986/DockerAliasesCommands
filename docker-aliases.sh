@@ -1,0 +1,11 @@
+echo "docker-help = ~/.helps/docker.sh"
+alias docker-help=~/.helps/docker.sh
+alias docker-containers='docker ps -a'
+alias docker-runs='docker ps'
+alias docker-logs='docker logs -f'
+alias docker-stop='docker stop'
+alias docker-start='docker start'
+alias docker-remove='docker remove'
+alias docker-remove-all-='docker rm -f $(docker ps -aq)'
+alias docker-info='docker inspect'
+alias docker-images='docker images'
