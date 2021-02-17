@@ -1,4 +1,4 @@
-echo "docker-help = ~/.helps/docker.sh"
+echo "docker-help = ~/.helps/docker.sh - to show aliases for docker commands"
 alias docker-help=~/.helps/docker.sh
 alias docker-containers='docker ps -a'
 alias docker-runs='docker ps'
@@ -10,3 +10,8 @@ alias docker-remove-all-='docker rm -f $(docker ps -aq)'
 alias docker-info='docker inspect'
 alias docker-images='docker images'
 alias docker-image-remove='docker rmi'
+alias docker-networks='docker network list'
+alias docker-c='docker-compose'
+alias docker-c-v='docker-compose --version'
+alias docker-c-stop='docker-compose stop'
+alias docker-c-stop-remove='docker-compose down'
